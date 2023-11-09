@@ -7,7 +7,7 @@ class Solution:
         max_element = max(arr)
         queue = collections.deque(arr[1:])
         curr = arr[0]
-        winstreak = 0
+        winstreak = 0   
         while queue:
             rival = queue.popleft()
             if curr>rival:
