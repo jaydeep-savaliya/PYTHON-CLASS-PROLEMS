@@ -1,6 +1,4 @@
 import flask as fl
-# from flask import jsonify
-
 app = fl(__name__)
 
 @app.route('/')
